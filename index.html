@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>✰ Angel's Paradise ✰</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script> 
+</head>
+
+    <video autoplay muted loop id="Video">
+        <source src="media/BackgroundVideo.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+<body>
+    <div class="container">
+        <h1>✰ Angel's Paradise ✰</h1>
+        <h2>Your safe place on the internet</h2>
+            <div class="container1">
+                <p><a href="#" onclick="lightbox_open()">Chill Lo-fi</a></p>
+                <p><a href="#" onclick="lightbox_open1()">Coding Lo-fi</a></p>
+                <p><a href="#" onclick="lightbox_open2()">Writing Lo-fi</a></p>
+            </div>
+    </div>
+
+    <div id="light">
+        <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+        <iframe id="video" width="600" height="360" src="https://www.youtube.com/embed/jfKfPfyJRdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id="light1">
+        <a class="boxclose1" id="boxclose1" onclick="lightbox_close1();"></a>
+        <iframe id="video1" width="600" height="360" src="https://www.youtube.com/embed/8YA825ZNAIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id="light2">
+        <a class="boxclose2" id="boxclose2" onclick="lightbox_close2();"></a>
+        <iframe id="video2" width="600" height="360" src="https://www.youtube.com/embed/-9gEgshJUuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+    <div id="fade" onClick="lightbox_close();"></div>
+    <div id="fade1" onClick="lightbox_close1();"></div>
+    <div id="fade2" onClick="lightbox_close2();"></div>
+
+
+</body>
+</html>

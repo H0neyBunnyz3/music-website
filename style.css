@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Brush Script MT', cursive;
+}
+
+#Video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .1));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 0;
+    position: sticky;
+}
+
+.container1 {
+    display: flex;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 7rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-family:cursive;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: inline-block;
+    width: auto;
+    position: relative;
+}
+
+p1 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: inline-block;
+    width: auto;
+    position: relative;
+}
+
+a {
+    padding: 15px 20px;
+    background: #52caee;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #333333;
+    border-radius: .25rem;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.808);
+    font-family:cursive;
+}
+
+
+#fade {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+    bottom: 0;
+}
+  
+#fade1 {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+    bottom: 0;
+}
+  
+#fade2 {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+    bottom: 0;
+}
+
+#light {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 600px;
+    max-height: 360px;
+    margin-left: -300px;
+    margin-top: -180px;
+    border: 2px solid #FFF;
+    background: #FFF;
+    z-index: 1002;
+    overflow: visible;
+    bottom: 0;
+}
+  
+#light1 {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 600px;
+    max-height: 360px;
+    margin-left: -300px;
+    margin-top: -180px;
+    border: 2px solid #FFF;
+    background: #FFF;
+    z-index: 1002;
+    overflow: visible;
+    bottom: 0;
+}
+
+#light2 {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 600px;
+    max-height: 360px;
+    margin-left: -300px;
+    margin-top: -180px;
+    border: 2px solid #FFF;
+    background: #FFF;
+    z-index: 1002;
+    overflow: visible;
+    bottom: 0;
+}
+
+#boxclose {
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #AEAEAE;
+    border-radius: 1px;
+    background: #222222;
+    font-size: 26px;
+    font-weight: bold;
+    display:inline-table;
+    line-height: 1px;
+    padding: 7px 4px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 1002;
+    opacity: 1;
+    bottom: 0;
+}
+  
+.boxclose:before {
+    content: "x";
+    bottom: 0;
+}
+  
+#boxclose1 {
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #AEAEAE;
+    border-radius: 1px;
+    background: #222222;
+    font-size: 26px;
+    font-weight: bold;
+    display:inline-table;
+    line-height: 1px;
+    padding: 7px 4px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 1002;
+    opacity: 1;
+    bottom: 0;
+}
+  
+.boxclose1:before {
+    content: "x";
+    bottom: 0;
+}
+  
+#boxclose2 {
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #AEAEAE;
+    border-radius: 1px;
+    background: #222222;
+    font-size: 26px;
+    font-weight: bold;
+    display:inline-table;
+    line-height: 1px;
+    padding: 7px 4px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 1002;
+    opacity: 1;
+    bottom: 0;
+}
+  
+.boxclose2:before {
+    content: "x";
+    bottom: 0;
+}
+
+#fade:hover ~ #boxclose {
+    display:none;
+    bottom: 0;
+}
